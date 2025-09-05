@@ -1,5 +1,104 @@
+/* VARIABLES */
+:root {
+    --sky-blue: #0088d2;
+    --grey: #e2e2e4;
+    --white: #f9f9f9;
+    --orange: #ffb703;
+}
+
+
+
 * {
     padding: 0px;
     margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+svg {
+    fill: var(--white)
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.logo {
+    color: var(--orange);
+    width: 1.5rem;
+}
+
+.title .logo {
+    width: 3rem;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+
+    height: 100vh;
+}
+
+.nav {
+
+    grid-column: 1;
+    grid-row: 1 / -1;
+
+    background-color: var(--sky-blue);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+
+    display: grid;
+    grid-auto-flow: row;
+    align-content: start;
+    gap: 50px;
+
+}
+
+.nav > div {
+    margin-left: 20px;
+}
+
+.nav .title {
+    font-size: 1.3rem;
+    margin-left: 7px;
+}
+
+.header {
+    background-color: var(--white);
+    
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.main {
+    grid-column: 2;
+    grid-row: 2;
+
+    overflow-y: auto;
+}
+
+.title a,
+.group1 > div a,
+.group2 > div a{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center; 
+  justify-content: start;
+  gap: 15px;
+}
+
+.nav > div {
+    display: grid;
+    gap: 10px;
+
+    margin-top: 15px;
 }
 
