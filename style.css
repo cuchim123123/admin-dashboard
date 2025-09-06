@@ -303,7 +303,7 @@ a {
 }
 
 .left .pfp {
-    width: clamp(1.8rem, 3.5vw, 4.8rem);
-    height: clamp(1.8rem, 3.5vw, 4.8rem); 
+    width: clamp(3rem, 4vw, 6rem);
+    height: clamp(3rem, 4vw, 6rem); 
 }
 
