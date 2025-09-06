@@ -234,6 +234,8 @@ a {
     display: flex;
     gap: 2vw;
     flex-direction: column;
+
+    font-size: 80%;
 }
 
 .announcements > div {
