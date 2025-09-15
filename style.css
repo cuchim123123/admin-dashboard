@@ -172,7 +172,7 @@ a {
 
 .right button {
     background-color: var(--sky-blue);
-    padding: 0.7vw 1.8vw;
+    padding: 0.3rem 0.7rem;
     border-radius:  9999px;
     border: none;
     cursor: pointer;
